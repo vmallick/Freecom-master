@@ -64,6 +64,7 @@ def qr_disp():
 def qrComp_disp():
     return "<h1>ToDo</h1>"
 #  for error
+#  vanshita
 @app.route('/error')
 def error():
     return render_template('error.html')
