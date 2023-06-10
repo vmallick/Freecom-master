@@ -63,7 +63,7 @@ def qr_disp():
 @app.route('/qrComp')
 def qrComp_disp():
     return "<h1>ToDo</h1>"
-
+#  for error
 @app.route('/error')
 def error():
     return render_template('error.html')
